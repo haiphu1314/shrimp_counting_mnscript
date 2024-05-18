@@ -1,0 +1,130 @@
+\relax 
+\citation{bifpn}
+\citation{eca}
+\citation{msca}
+\citation{shrimp_yolo1,shrimp_yolo2,yolo3,det1,shrimp_det2,shrimp_rcnn1,shrimp_rcnn2,rcnn3}
+\citation{shrimp_seg1,shrimp_seg2,shrimp_seg3,shrimp_seg4,shrimp_seg5,shrimp_seg6}
+\citation{bifpn}
+\citation{eca}
+\citation{eca}
+\citation{loy2013crowd}
+\citation{shrimp_yolo1,shrimp_yolo2,yolo3,det1,shrimp_det2,shrimp_rcnn1,shrimp_rcnn2,rcnn3}
+\citation{shrimp_seg1,shrimp_seg2,shrimp_seg3,shrimp_seg4,shrimp_seg5,shrimp_seg6}
+\citation{shrimp_density_1,shrimp_density_2,shrimp_density_3,mcnn,sanet,csrnet,cffnet,can,tednet,sfanet,dm,sganet,bayesian}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}\protected@file@percent }
+\citation{shrimp_yolo1,shrimp_yolo2,yolo3}
+\citation{shrimp_rcnn1,shrimp_rcnn2,rcnn3}
+\citation{densitymapsurvey}
+\citation{firstdensity}
+\citation{firstdensity,shrimp_density_1}
+\citation{mcnn,shrimp_density_2,sanet,csrnet,cffnet,can,tednet,sfanet,sganet}
+\citation{mcnn,sanet,shrimp_density_2,tednet}
+\citation{csrnet,dadnet,adaptivedilated,spatiotemporaldilated}
+\citation{scalepyramid,atrouspyramid,fpanet}
+\citation{mcnn}
+\citation{csrnet}
+\citation{fpanet}
+\citation{bifpn}
+\citation{vgg16}
+\citation{bifpn}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Related Works}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Density Map Generation}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}CNN-based methods}{2}{}\protected@file@percent }
+\citation{vgg16}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Proposed Model}: Modified VGG16\cite  {vgg16} as backbone and BiFPN\cite  {bifpn} to connect feature maps}}{3}{}\protected@file@percent }
+\newlabel{fig:2}{{1}{3}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Proposed Method}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Bi-directional Multi-scale Feature Pyramid Network Architecture (BMFPN)}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-A}1}\textbf  {Feature Map Extraction (FME)}}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Efficient channel attention (ECA) module}}{4}{}\protected@file@percent }
+\newlabel{ecamodule}{{2}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-A}2}\textbf  {Density Map Estimator (DME)}}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Bi-directional Feature Pyramid Network}}{4}{}\protected@file@percent }
+\newlabel{BiFPN}{{3}{4}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Density Map Estimation Module}}{4}{}\protected@file@percent }
+\newlabel{attentionmap}{{4}{4}{}{}{}}
+\citation{firstdensity}
+\citation{mcnn}
+\citation{firstdensity}
+\citation{hu2022deep,mcnn}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Density Map Generation}{5}{}\protected@file@percent }
+\newlabel{eq: 3}{{1}{5}{}{}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Algorithm generates a density map by applying a Scale-Adaptive Gaussian Kernel filter}}{6}{}\protected@file@percent }
+\newlabel{alg:density}{{1}{6}{}{}{}}
+\newlabel{GenDensity_1a}{{5a}{6}{}{}{}}
+\newlabel{sub@GenDensity_1a}{{(a)}{a}}
+\newlabel{GenDensity_1b}{{5b}{6}{}{}{}}
+\newlabel{sub@GenDensity_1b}{{(b)}{b}}
+\newlabel{GenDensity_1c}{{5c}{6}{}{}{}}
+\newlabel{sub@GenDensity_1c}{{(c)}{c}}
+\newlabel{GenDensity_1d}{{5d}{6}{}{}{}}
+\newlabel{sub@GenDensity_1d}{{(d)}{d}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Generate a depth map by applying the Gaussian kernel. (a) Original image of shrimp larvae, (b) Density map applying Gaussian kernel with constant $\sigma $, (c) Density map is generated applying Gaussian kernel with dynamic $\sigma $ based on the average k-nearest neighbor distance, (d) Density map is generated applying Gaussian kernel with dynamic $\sigma $ based on size}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{6}{}\protected@file@percent }
+\newlabel{fig:1}{{5}{6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Experiments Evaluation}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Acquisition of Datasets}{6}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Number of Shrimp Larvae}}{6}{}\protected@file@percent }
+\newlabel{fig3_a}{{6a}{7}{}{}{}}
+\newlabel{sub@fig3_a}{{(a)}{a}}
+\newlabel{fig3_b}{{6b}{7}{}{}{}}
+\newlabel{sub@fig3_b}{{(b)}{b}}
+\newlabel{fig3_c}{{6c}{7}{}{}{}}
+\newlabel{sub@fig3_c}{{(c)}{c}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces (a): Original image, (b) Annotated image, (c) Density map generated by Size-Adjustable Gaussian Kernel. We annotated three kinds of keypoints on each larva from their bound box: $c_i$, $h_i$ and $w_i$ correspond to the center, height and width of the bounding box. }}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{7}{}\protected@file@percent }
+\newlabel{fig3}{{6}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Evaluation Metric}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Evaluation and Comparison}{7}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Performance Comparison of Different Methods}}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{7}{}\protected@file@percent }
+\bibstyle{IEEEtran}
+\bibdata{bibliography.bib}
+\bibcite{bifpn}{1}
+\bibcite{eca}{2}
+\bibcite{msca}{3}
+\bibcite{loy2013crowd}{4}
+\bibcite{shrimp_yolo1}{5}
+\bibcite{shrimp_yolo2}{6}
+\bibcite{yolo3}{7}
+\bibcite{det1}{8}
+\bibcite{shrimp_det2}{9}
+\bibcite{shrimp_rcnn1}{10}
+\bibcite{shrimp_rcnn2}{11}
+\bibcite{rcnn3}{12}
+\bibcite{shrimp_seg1}{13}
+\bibcite{shrimp_seg2}{14}
+\bibcite{shrimp_seg3}{15}
+\bibcite{shrimp_seg4}{16}
+\bibcite{shrimp_seg5}{17}
+\bibcite{shrimp_seg6}{18}
+\bibcite{shrimp_density_1}{19}
+\bibcite{shrimp_density_2}{20}
+\bibcite{shrimp_density_3}{21}
+\bibcite{mcnn}{22}
+\bibcite{sanet}{23}
+\bibcite{csrnet}{24}
+\bibcite{cffnet}{25}
+\bibcite{can}{26}
+\bibcite{tednet}{27}
+\bibcite{sfanet}{28}
+\bibcite{dm}{29}
+\bibcite{sganet}{30}
+\bibcite{bayesian}{31}
+\bibcite{densitymapsurvey}{32}
+\bibcite{firstdensity}{33}
+\bibcite{dadnet}{34}
+\bibcite{adaptivedilated}{35}
+\bibcite{spatiotemporaldilated}{36}
+\bibcite{scalepyramid}{37}
+\bibcite{atrouspyramid}{38}
+\bibcite{fpanet}{39}
+\@writefile{toc}{\contentsline {section}{References}{8}{}\protected@file@percent }
+\bibcite{vgg16}{40}
+\bibcite{hu2022deep}{41}
+\gdef \@abspage@last{9}

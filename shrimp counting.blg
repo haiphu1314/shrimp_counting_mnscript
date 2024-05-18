@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: shrimp counting.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: bibliography.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 41 entries,
+            4087 wiz_defined-function locations,
+            1042 strings with 15721 characters,
+and the built_in function-call counts, 36195 in all, are:
+= -- 2833
+> -- 1013
+< -- 310
++ -- 566
+- -- 198
+* -- 1749
+:= -- 5055
+add.period$ -- 90
+call.type$ -- 41
+change.case$ -- 41
+chr.to.int$ -- 756
+cite$ -- 41
+duplicate$ -- 2532
+empty$ -- 2902
+format.name$ -- 221
+if$ -- 8545
+int.to.chr$ -- 0
+int.to.str$ -- 41
+missing$ -- 442
+newline$ -- 152
+num.names$ -- 41
+pop$ -- 1091
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2784
+stack$ -- 0
+substring$ -- 1903
+swap$ -- 2118
+text.length$ -- 58
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 41
+warning$ -- 0
+while$ -- 163
+width$ -- 43
+write$ -- 417
