@@ -1,0 +1,34 @@
+# Các tệp log
+*.log
+
+# Các tệp auxiliary
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.out
+*.toc
+*.lot
+*.lof
+*.nav
+*.snm
+
+# Các tệp hình ảnh tạm thời và pdf
+*.dvi
+*.ps
+*.eps
+*.pdf
+
+# Các tệp tạm thời
+*.tmp
+*.bak
+*.swp
+*~
+
+# Thư mục của LaTeX build
+_build/
+latexmkrc
